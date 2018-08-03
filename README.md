@@ -4,6 +4,6 @@ Application is developed to showcase photos of courtyards of Vilnius University.
 
 Demo Screen Shots
 
-![alt text](https://github.com/RuSaBin/-3DPictureViewer/blob/master/tools/demo/1.jpg)
-![alt text](https://github.com/RuSaBin/-3DPictureViewer/blob/master/tools/demo/2.jpg)
+![alt text](https://github.com/RuSaBin/-3DPictureViewer/blob/master/tools/demo/A.jpg)
+![alt text](https://github.com/RuSaBin/-3DPictureViewer/blob/master/tools/demo/B.jpg)
 
