@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WorldController">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="331.0" fitWidth="550.0" layoutX="22.0" layoutY="62.0" nodeOrientation="INHERIT" pickOnBounds="true" />
+      <ImageView id="item1View" fx:id="item1View" fitHeight="110.0" fitWidth="89.0" layoutX="72.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item2View" fx:id="item2View" fitHeight="110.0" fitWidth="89.0" layoutX="236.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item3View" fx:id="item3View" fitHeight="110.0" fitWidth="89.0" layoutX="433.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="left" layoutX="222.0" layoutY="330.0" mnemonicParsing="false" onAction="#goLeft" prefHeight="35.0" prefWidth="43.0" AnchorPane.leftAnchor="222.0" />
+      <Button fx:id="forward" layoutX="266.0" layoutY="294.0" mnemonicParsing="false" onAction="#goForward" prefHeight="35.0" prefWidth="59.0" />
+      <Button fx:id="right" layoutX="325.0" layoutY="330.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#goRight" prefHeight="35.0" prefWidth="43.0" />
+      <Label id="title" fx:id="title" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="26.0" prefHeight="25.0" prefWidth="592.0" text="Vilnius University Courtyards" textAlignment="CENTER" wrapText="true" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="go" layoutX="266.0" layoutY="334.0" prefHeight="28.0" prefWidth="59.0" />
+      <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0">
+        <menus>
+          <Menu id="pickItem" fx:id="pickItem" mnemonicParsing="false" text="Pick Item" />
+          <Menu id="putItem" fx:id="putItem" mnemonicParsing="false" text="Put Item" />
+        </menus>
+      </MenuBar>
+      <Label fx:id="maxItems" alignment="CENTER" contentDisplay="CENTER" layoutX="153.0" layoutY="73.0" prefHeight="44.0" prefWidth="285.0" text="Location is full!" textAlignment="CENTER" textFill="#a91414" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
