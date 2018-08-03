@@ -1,6 +1,8 @@
 # -3DPictureViewer
-Picture viewer allowing watch location photos as if you were inside of the location. Allows looking around and walking from one location to another. Also features possibility to pick up items and put in another location. 
+Picture viewer displaying location photos of four directions and moving between locations. Also features possibility to pick up items and put in another location. 
 Application is developed to showcase photos of courtyards of Vilnius University.
+
+Application is developed in JAVA programming language utilising object oriented design.
 
 Demo Screen Shots
 
