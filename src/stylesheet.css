@@ -1,0 +1,76 @@
+#background {
+    -fx-background-color: #a9a9a9;
+}
+
+
+#go {
+	
+	-fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #f5f5dc;
+    -fx-alignment: CENTER;
+	
+}
+
+#title {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #2f4f4f;
+    -fx-opacity: 0.6;
+    -fx-alignment: CENTER;
+}
+
+#forward {
+   
+     -fx-shape: "M 2 2 L 0 6 L 4 6 z";
+     -fx-base: #f5f5dc;
+}
+
+#left{
+	
+	  -fx-shape: "M 0 4 L 8 0 L 8 7 z";
+	  -fx-base: #f5f5dc;
+}
+
+#right{
+	
+      -fx-shape: "M 0 4 L 0 8 L 8 6 z";
+      -fx-base: #f5f5dc;
+}
+
+#pickItem{
+	
+	 -fx-font-size: 9pt;
+     -fx-font-family: "Segoe UI Semibold";
+     -fx-opacity: 0.6;
+     -fx-text-fill: #2f4f4f;
+	
+}
+
+#putItem{
+	
+	 -fx-font-size: 9pt;
+     -fx-font-family: "Segoe UI Semibold";
+     -fx-opacity: 0.6;
+     -fx-text-fill: #2f4f4f;
+}
+
+#maxItems{
+	
+	-fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #b22222;
+    -fx-background-color: #f5f5dc;
+    -fx-background-opacity: 0.6;
+    -fx-alignment: CENTER;
+	
+}
+
+
+
+	
+
+
+
+
+
